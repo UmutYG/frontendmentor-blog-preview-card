@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Figtree";
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: #f4d04e;
+      }
+    </style>
+  </head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <body class="h-screen bg-[#f4d04e] flex justify-center items-center">
+    <div
+      class="max-w-sm bg-white p-4 rounded-[20px] shadow-xl flex flex-col gap-6"
+    >
+      <div class="flex items-center justify-center">
+        <img
+          class="rounded-[10px] w-full"
+          src="/assets/images/illustration-article.svg"
+          alt="Article Illustration"
+        />
+      </div>
+
+      <div class="">
+        <span class="bg-[#f4d04e] py-2 px-4 rounded-lg font-bold inline-block"
+          >Learning</span
+        >
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-sm block">Published 21 Dec 2023</span>
+        <h1
+          class="font-bold text-2xl hover:text-[#f4d04e] hover:cursor-pointer"
+        >
+          HTML & CSS foundations
+        </h1>
+        <p class="font-light">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <img
+          class="w-8 h-8 rounded-full"
+          src="/assets/images/image-avatar.webp"
+          alt="Greg Hooper"
+        />
+        <span class="font-bold">Greg Hooper</span>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
