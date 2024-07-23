@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog Preview Card Screenshot](./assets/images/screenshot.jpg)
+![image](https://github.com/user-attachments/assets/144833cf-0b91-4f5b-9e41-c63d9715c071)
 
 ### Links
 
